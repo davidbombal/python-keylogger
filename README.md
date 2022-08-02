@@ -21,3 +21,5 @@ here `https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sk
 5. Change directory into the `\pyinstaller\bootloader` folder of the cloned repository.
 6. Build the bootloader using command `./waf distclean all`
 7. Run `py setup.py install`
+
+You can then use this bootloader to compile your Python code.
