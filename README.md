@@ -10,16 +10,4 @@
 5. Run the command `pip install -r requirements.txt` to install all the packages required in your virtual environment.
 6. Run `py keylogger.py` this will run the program.
 
-## Create your own Pyinstaller bootloader (It is often times more likely to avoid Anti-Virus but not guaranteed)
-### Build your own bootloader.
-
-1. We want to create a new bootloader for Pyinstaller that uses the Microsoft C/C++ compiler. You can download the Community Edition
-here `https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSFeaturesPage&passive=true&tailored=cplus&cid=2031#cplusplus`
-2. Run the downloaded `VisualStudioSetup.exe` file.
-3. `git clone https://github.com/pyinstaller/pyinstaller.git`
-4. Run `pip install wheel`
-5. Change directory into the `\pyinstaller\bootloader` folder of the cloned repository.
-6. Build the bootloader using command `./waf distclean all`
-7. Run `py setup.py install`
-
-You can then use this bootloader to compile your Python code.
+### To get the file to run on Windows 11 evading the antivirus I compiled the PyInstaller bootloader locally, and then used it to compile the code.
